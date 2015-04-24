@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="72">
-            <field name="TEXT">WHATS</field>
+            <field name="TEXT">CUT</field>
             <next>
               <block type="oled_setcursor" id="87" inline="true">
                 <value name="STARTX">
@@ -29,7 +29,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="116">
-                    <field name="TEXT">GOOD</field>
+                    <field name="TEXT">LEFT</field>
                   </block>
                 </next>
               </block>
