@@ -15,25 +15,6 @@
         <next>
           <block type="oled_drawtext" id="72">
             <field name="TEXT">PIZZA</field>
-            <next>
-              <block type="oled_setcursor" id="87" inline="true">
-                <value name="STARTX">
-                  <block type="math_number" id="100">
-                    <field name="NUM">47</field>
-                  </block>
-                </value>
-                <value name="STARTY">
-                  <block type="math_number" id="107">
-                    <field name="NUM">47</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="oled_drawtext" id="116">
-                    <field name="TEXT">LEFT</field>
-                  </block>
-                </next>
-              </block>
-            </next>
           </block>
         </next>
       </block>
